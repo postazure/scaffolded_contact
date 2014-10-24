@@ -13,6 +13,6 @@ class Contact < ActiveRecord::Base
 
 
   def full_name
-    f = "#{last_name}, #{first_name}"
+    "#{last_name}, #{first_name}"
   end
 end
